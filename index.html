@@ -111,8 +111,8 @@
     <!-- 동적으로 경로를 처리 -->
     <script>
         // Base URL 설정: GitHub Pages와 로컬에서 모두 작동하도록 설정
-        const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
-        const basePath = isLocal ? "" : "/-SSU_Demo";
+        const isLocal = window.location.hostname === "localhost" || window.location.hostname === "https://bobo9245.github.io/-SSU_Demo/";
+        const basePath = isLocal ? "" : "";
 
         // 경로를 재설정하는 함수
         document.querySelectorAll('img').forEach(img => {

@@ -1,0 +1,17 @@
+{
+  "name": "tryonssu_demo",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@mkkellogg/gaussian-splats-3d": "^0.4.6",
+    "express": "^4.21.2",
+    "three": "^0.171.0"
+  }
+}
